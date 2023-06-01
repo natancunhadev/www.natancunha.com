@@ -1,0 +1,896 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js" lang=""> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+<!-- Mirrored from www.natancunha.com/pages/contact by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jun 2023 05:24:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<script>
+  window.CartX = window.CartX || {};
+     window.themeString = {
+      moneyFormat: 'R$ {{amount}}',
+      shopCurrency : 'BRL'
+    };
+  
+  CartX.Currency = {
+        formatMoney: function (e, t) {
+            "string" == typeof e && (e = e.replace(".", ""));
+            var i = "",
+                a = /\{\{\s*(\w+)\s*\}\}/,
+                s = t || "$";
+            function n(e, t, i, a) {
+                if (((i = i || ","), (a = a || "."), isNaN(e) || null === e)) return 0;
+                var s = (e = (e / 100).toFixed(t)).split(".");
+                return s[0].replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1" + i) + (s[1] ? a + s[1] : "");
+            }
+            switch (s.match(a)[1]) {
+                case "amount":
+                    i = n(e, 2);
+                    break;
+                case "amount_no_decimals":
+                    i = n(e, 0);
+                    break;
+                case "amount_with_comma_separator":
+                    i = n(e, 2, ".", ",");
+                    break;
+                case "amount_no_decimals_with_comma_separator":
+                    i = n(e, 0, ".", ",");
+                    break;
+                case "amount_no_decimals_with_space_separator":
+                    i = n(e, 0, " ");
+                    break;
+                case "amount_with_apostrophe_separator":
+                    i = n(e, 2, "'");
+            }
+            return s.replace(a, i);
+        },
+    };
+</script>
+
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#777777">
+<meta name="keywords" content="Cartx Template" />
+<meta name="author" content="p-themes">
+<link rel="canonical" href="#">
+<meta name="csrf-token" content="yZ0YT6xCJvEVC1EuvfinU2PdaB2CvOMZtqZPi03z">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"><link rel="shortcut icon" href="../../thumbor.cartpanda.com/qQ18B9rBbGFKatZxFS3w_AkuXhc%3d/32x32/https_/assets.mycartpanda.com/static/theme_images/10/df/5e/67038_5150604182.png" type="image/png"><link rel="stylesheet" type="text/css" href="../../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
+<title>
+  CONTACT
+</title>
+<meta name="description" content="" />
+
+<meta property="og:site_name" content="Natan Cunha – Official Website of the guitar player Natan Cunha">
+<meta property="og:url" content="">
+<meta property="og:title" content="CONTACT">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Natan Cunha – Official Website of the guitar player Natan Cunha">
+<meta property="og:image" content="https://thumbor.cartpanda.com/KvtjaKTSoglWntyHu04ZgrA9xXw=/1200x1200/https://assets.mycartpanda.com/static/favicons/cf/c6/88/1652093914.png">
+<meta property="og:image:secure_url" content="https://thumbor.cartpanda.com/KvtjaKTSoglWntyHu04ZgrA9xXw=/1200x1200/https://assets.mycartpanda.com/static/favicons/cf/c6/88/1652093914.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CONTACT">
+<meta name="twitter:description" content="Natan Cunha – Official Website of the guitar player Natan Cunha">
+
+
+<link rel="stylesheet" type="text/css" href="../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Hind:100,200,300,400,500,600,700,800,900" rel="stylesheet" defer> <style>
+@font-face {
+  font-family: 'wokiee_icons';
+  src:  url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/wokiee_icons.eot?v=123456");
+  src:  url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/wokiee_icons.eot?v=123456") format('embedded-opentype'),
+    url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/wokiee_icons.ttf?v=123456") format('truetype'),
+    url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/wokiee_icons.woff?v=123456") format('woff'),
+    url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/wokiee_icons.svg?v=123456#wokiee_icons") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'revicons';
+  src: url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/revicons.eot?v=123456");
+  src: url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/revicons.eot?v=123456") format("embedded-opentype"), url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/revicons.woff?v=123456") format("woff"), url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/revicons.ttf?v=123456") format("truetype"), url("http://natancunhashopbarber.mycartpanda.com/themes/void/assets/revicons.svg?v=123456") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
+<link href='../../natancunhashopbarber.mycartpanda.com/themes/void/310879/0/67038/compiled/theme6b9d.css?v=1661122565' type='text/css' rel='stylesheet'>
+<style>
+.cartx-section.index-section .container-indent {
+    padding: 30px 0;
+}
+.nomargin, #tt-pageContent .nomargin {
+    padding-top: 0;
+}
+</style>
+<script data-cfasync="false" src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/jquery.min4402.js?v=1615980265"></script>
+<meta name='shop' content='https://natancunhashopbarber.mycartpanda.com'><script>window.Shopify={};</script><script>window.slug='natancunhashopbarber'</script>
+<script>window.recaptchaSet='false'</script>
+<script>
+            var onCartx = new Object();
+            onCartx.theme = {"id":310879,"name":"Void - Demo 1","role":"main"}; var Cartpanda = Cartpanda || {}; Cartpanda.locale = 'pt-BR';
+            onCartx.oncartx_domain = 'natancunhashopbarber';
+            (function() {
+              function asyncLoad() {
+                var urls = ["\/js\/analytics.min.js","#\/js\/commonProductView.js?version=1685596906","#\/js\/product-min-max.js?version=1685596906","#\/js\/services\/socket-client.js","#\/js\/utm-loader.js?id=1ee59da92331c806008e2884fea4e482","\/js\/services\/pixely.js?id=e9bc2099635083e9f0bf7f42a2e3c523"];
+                if (!urls.lenght && typeof urls === 'object') {
+                   urls = Object.keys(urls).map((key) => urls[key]);
+                }
+                for (var i = 0; i < urls.length; i++) {
+                  var s = document.createElement('script');
+                  s.type = 'text/javascript';
+                  s.async = true;
+                  s.src = urls[i];
+                  var x = document.getElementsByTagName('script')[0];
+                  x.parentNode.insertBefore(s, x);
+                }
+              };
+              if(window.attachEvent) {
+                window.attachEvent('onload', asyncLoad);
+              } else {
+                window.addEventListener('load', asyncLoad, false);
+              }
+            })();</script>
+
+<script type="text/javascript">
+    var fb_pixel_option = '';
+  </script>
+<script src="../js/libs/ga-events4d74.js?id=8413413902"></script>
+<style>
+    #cartx-section-categorie-button{
+      display: none;
+    }
+    #tt-pageContent .cartx-section > .container-indent:not(.nomargin):not([class^="tt-offset"]){
+      margin-top: 52px;
+    }
+    @media (max-width: 1024px){
+      #tt-pageContent .cartx-section > .container-indent:not(.nomargin):not([class^="tt-offset"]){
+        margin-top: 43px;
+      }
+    }
+    @media (max-width: 575px){
+      #tt-pageContent .cartx-section > .container-indent:not(.nomargin):not([class^="tt-offset"]){
+        margin-top: 33px;
+      }
+    }
+    [data-sectionname="index_sectionfeaturedproduct"] .tt-product .tt-options-swatch li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    [data-sectionname="index_sectionfeaturedproduct"] .tt-option-block {
+        margin-bottom: 15px;
+    }
+    [data-sectionname="index_sectionfeaturedproduct"] .tt-options-swatch:not(.options-large):not(.options-middle) li a, .tt-options-swatch:not(.options-large):not(.options-middle) li a.options-color {
+        min-width: 40px;
+        min-height: 40px;
+    }
+    [data-sectionname="index_sectionfeaturedproduct"] .tt-options-swatch:not(.options-large):not(.options-middle) li a.options-color-image {
+        min-width: 60px;
+        min-height: 60px;
+    }
+    #macy-container1 .card {
+        width: calc(50% - 12px);
+        margin-bottom: 20px;
+    }
+    .container-indent.product_tabs #tab_review #macy-container1, .tab-pane #macy-container1 {
+        justify-content: flex-start !important;
+    }
+
+    .container-indent.product_tabs #tab_review #macy-container1 .card, .tab-pane #macy-container1 .card {
+        width: calc(25% - 12px);
+        margin-right: 12px;
+    }
+    .tt-mobile-header-inline .tt-menu-toggle svg path{
+      fill: #FFFFFF;
+    }
+    .tt-mobile-header-inline .tt-menu-toggle:hover svg path{
+      fill: #6100FF;
+    }
+    .visible-xs, .visible-sm, .visible-md, .visible-lg, .visible-xl {
+        display: none !important;
+    }
+    @media (max-width: 575px){
+      .visible-xs {
+          display: block !important;
+      }
+    }
+  .progress_bar_text, .progress_bar_text #counter_left, .progress_bar_text #counter_left1{
+      color: antiquewhite;
+    }
+    .infinitybutton.autoscroll_yes {
+        display: none;
+    }
+    
+    #custom-options-element label {
+        font-size: 14px;
+        line-height: 26px;
+        color:#191919;
+        font-family: 'Hind', sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+    @media (max-width: 1024px){
+      .tt-product .tt-image-box .tt-img-roll-over {
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          z-index: 1;
+          width: 100%;
+          -webkit-transition: opacity .3s ease-out;
+          transition: opacity .3s ease-out;
+          display: block !important;
+      }
+      .tt-product .tt-image-box img {
+          width: 100%;
+          height: auto;
+      }
+      .tt-product:hover .tt-image-box .tt-img-roll-over, .tt-product:hover .tt-image-box [class^=tt-img]:last-child {
+          -moz-opacity: 1;
+          -khtml-opacity: 1;
+          -webkit-opacity: 1;
+          opacity: 1;
+      }
+    }
+    @media (max-width: 789px){
+      .tt-shopcart-table-02 table td:nth-child(5) {
+           display: block;
+      }
+      .container-indent.product_tabs #tab_review #macy-container1 .card, .tab-pane #macy-container1 .card {
+          width: calc(50% - 12px);
+          margin-right: 12px;
+      }
+    }
+    @media (max-width: 789px){
+      .pagepage #tt-pageContent img {
+          width: 100%;
+      }
+    }
+    .tt-fixed-product-wrapper .tt-fixed-product .tt-description .tt-price .product-price__price-product-template {
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .tt-fixed-product-wrapper {
+        padding-bottom: 10px;
+    }
+    .tt-search.tt-dropdown-obj:nth-child(2) {
+    display: none;
+}
+.products-nomargin{
+  margin-top: 20px;
+}
+@media (max-width: 520px){
+  .tt-fixed-product-wrapper .tt-input-counter.style-01 {
+      max-width: 70px !important;
+      min-width: 70px;
+  }
+  .tt-fixed-product-wrapper .tt-input-counter.style-01 span {
+      width: 30px;
+  }
+  .tt-fixed-product-wrapper .tt-row-custom01 .col-item:not(:first-child) {
+      margin-left: -15px !important;
+  }
+  .tt-stuck-nav .tt-stuck-parent-categories {
+    display: none;
+  }
+}
+.ttshowmorestyle.disable {
+    display: none;
+}
+#cartx-section-product-template .tt-product-single-info .tt-input-counter.style-01 span, #cartx-section-cart-template .tt-input-counter.style-01 span{
+  color: #d8d8d8;
+}
+/*.pagecollection #custom-preloader {
+    opacity: 0 !important;
+}*/
+@media (max-width: 507px){
+  #modalVideoProduct .modal-video {
+    width: 95%;
+  }
+  .modal-video-content iframe {
+      height: 35vh;
+  }
+}
+@media (max-width: 420px){
+  .tt-img-box {
+      height: auto;
+  }
+}
+@media (min-width: 790px){
+  footer .tt-logo .tt-title{
+    color: #FFFFFF;
+  }
+}
+#custom-product-item .slick-arrow:before, .tt-mobile-product-slider.arrow-location-center .slick-arrow:before{
+  color: #191919;
+}
+#cartx-section-product-template .modal .modal-body {
+    overflow: auto;
+}
+@media (max-width: 790px){
+  #cartx-section-product-template .modal .modal-body img {
+      width: 100%;
+      height: auto;
+  }
+}
+.save_discount_pro {
+    border: 2px solid;
+    line-height: 1;
+    padding: 5px 5px 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #000000;
+}
+.product_tabs .tt-collapse-content img {
+    height: auto;
+}
+.fr-emoticon.fr-emoticon-img {
+    background-repeat: no-repeat !important;
+    font-size: inherit;
+    height: 1em;
+    width: 1em;
+    min-height: 20px;
+    min-width: 20px;
+    display: inline-block;
+    margin: -.1em .1em .1em;
+    line-height: 1;
+    vertical-align: middle;
+}
+.tp-bannertimer{
+  background: url("../../natancunhashopbarber.mycartpanda.com/themes/void/assets/timere0ac.png?v=123456");
+}
+
+.tt-post-single .tt-title,
+.tt-block-title .tt-title,
+.tt-title-subpages{
+  text-transform: uppercase;
+}
+
+.tt-desctop-menu .tt-megamenu-submenu>li ul, .tt-desctop-menu .tt-megamenu-submenu>li ul li a {
+    background: #FFFFFF;
+}
+.tt-desctop-menu .tt-megamenu-submenu>li ul li a {
+    color: #777777;
+}
+.tt-product-vertical-layout.stickprcol-js {
+    overflow: inherit;
+}
+  .custom-single-page .tt-product-vertical-layout .tt-product-single-carousel-vertical .slick-arrow {
+    left: 15px;
+}
+  .custom-single-page .tt-product-vertical-layout .tt-product-single-carousel-vertical .slick-arrow.slick-prev {
+    top: 0;
+}
+  .tt-product-single-info .tt-row-custom-01 .btn.disable{
+  background:#191919;
+  color:#FFFFFF;
+}
+  </style>
+<script data-cfasync="false">
+  var visitorcountr = false;
+  var direct_checkout= true;
+  </script>
+</head>
+<body class="pagepage"> <div id='cartx-section-header' class='cartx-section '> <style type="text/css">
+.tt-search-opened-headtype1 .tt-search-input{
+    padding: 10px 10px 6px 34px;
+    width: 240px;
+}
+</style>
+<header class="desctop-menu-large small-header"><nav class="panel-menu mobile-main-menu">
+<ul><li>
+<a href="../index.html">HOME</a> <ul><li>
+<a href="../index.html">HOME</a> <ul><li><a href="../index.html">HOME</a></li><li><a href="biography.html">BIOGRAPHY</a></li><li><a href="equipments.html">EQUIPMENTS</a></li><li><a href="contact.html">CONTACT</a></li></ul></li><li>
+<a href="biography.html">BIOGRAPHY</a> </li><li>
+<a href="equipments.html">EQUIPMENTS</a> </li><li>
+<a href="contact.html">CONTACT</a> </li></ul></li><li>
+<a href="biography.html">BIOGRAPHY</a> </li><li>
+<a href="equipments.html">EQUIPMENTS</a> </li><li>
+<a href="contact.html">CONTACT</a> </li></ul>
+</nav><div class="tt-color-scheme-01">
+<div class="container">
+<div class="tt-header-row tt-top-row">
+<div class="tt-col-left">
+</div><div class="tt-col-right ml-auto">
+<ul class="tt-social-icon"><li><a class="icon-g-66" target="_blank" href="https://www.natancunhaofficial@gmail.com/"></a></li> <li><a class="icon-g-67" target="_blank" href="https://www.instagram.com/natancunhaofficial/"></a></li></ul>
+</div></div>
+</div>
+</div>
+<div class="tt-mobile-header tt-mobile-header-inline tt-mobile-header-inline-stuck">
+<div class="container-fluid">
+<div class="tt-header-row">
+<div class="tt-mobile-parent-menu">
+<div class="tt-menu-toggle mainmenumob-js">
+<svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.4023 0.292969C16.4935 0.397135 16.5651 0.507812 16.6172 0.625C16.6693 0.742188 16.6953 0.865885 16.6953 0.996094C16.6953 1.13932 16.6693 1.26953 16.6172 1.38672C16.5651 1.50391 16.4935 1.60807 16.4023 1.69922C16.2982 1.80339 16.1875 1.88151 16.0703 1.93359C15.9531 1.97266 15.8294 1.99219 15.6992 1.99219H1.69531C1.55208 1.99219 1.42188 1.97266 1.30469 1.93359C1.1875 1.88151 1.08333 1.80339 0.992188 1.69922C0.888021 1.60807 0.809896 1.50391 0.757812 1.38672C0.71875 1.26953 0.699219 1.13932 0.699219 0.996094C0.699219 0.865885 0.71875 0.742188 0.757812 0.625C0.809896 0.507812 0.888021 0.397135 0.992188 0.292969C1.08333 0.201823 1.1875 0.130208 1.30469 0.078125C1.42188 0.0260417 1.55208 0 1.69531 0H15.6992C15.8294 0 15.9531 0.0260417 16.0703 0.078125C16.1875 0.130208 16.2982 0.201823 16.4023 0.292969ZM16.4023 6.28906C16.4935 6.39323 16.5651 6.50391 16.6172 6.62109C16.6693 6.73828 16.6953 6.86198 16.6953 6.99219C16.6953 7.13542 16.6693 7.26562 16.6172 7.38281C16.5651 7.5 16.4935 7.60417 16.4023 7.69531C16.2982 7.79948 16.1875 7.8776 16.0703 7.92969C15.9531 7.98177 15.8294 8.00781 15.6992 8.00781H1.69531C1.55208 8.00781 1.42188 7.98177 1.30469 7.92969C1.1875 7.8776 1.08333 7.79948 0.992188 7.69531C0.888021 7.60417 0.809896 7.5 0.757812 7.38281C0.71875 7.26562 0.699219 7.13542 0.699219 6.99219C0.699219 6.86198 0.71875 6.73828 0.757812 6.62109C0.809896 6.50391 0.888021 6.39323 0.992188 6.28906C1.08333 6.19792 1.1875 6.1263 1.30469 6.07422C1.42188 6.02214 1.55208 5.99609 1.69531 5.99609H15.6992C15.8294 5.99609 15.9531 6.02214 16.0703 6.07422C16.1875 6.1263 16.2982 6.19792 16.4023 6.28906ZM16.4023 12.3047C16.4935 12.3958 16.5651 12.5 16.6172 12.6172C16.6693 12.7344 16.6953 12.8646 16.6953 13.0078C16.6953 13.138 16.6693 13.2617 16.6172 13.3789C16.5651 13.4961 16.4935 13.6068 16.4023 13.7109C16.2982 13.8021 16.1875 13.8737 16.0703 13.9258C15.9531 13.9779 15.8294 14.0039 15.6992 14.0039H1.69531C1.55208 14.0039 1.42188 13.9779 1.30469 13.9258C1.1875 13.8737 1.08333 13.8021 0.992188 13.7109C0.888021 13.6068 0.809896 13.4961 0.757812 13.3789C0.71875 13.2617 0.699219 13.138 0.699219 13.0078C0.699219 12.8646 0.71875 12.7344 0.757812 12.6172C0.809896 12.5 0.888021 12.3958 0.992188 12.3047C1.08333 12.2005 1.1875 12.1224 1.30469 12.0703C1.42188 12.0182 1.55208 11.9922 1.69531 11.9922H15.6992C15.8294 11.9922 15.9531 12.0182 16.0703 12.0703C16.1875 12.1224 16.2982 12.2005 16.4023 12.3047Z" fill="#191919" />
+</svg>
+</div>
+</div>
+<div class="tt-logo-container">
+<a class="tt-logo tt-logo-alignment" href="../index.html"><img src="../../thumbor.cartpanda.com/kWIXb_XjpYEv7S8vDnc3MY6sMWg%3d/110x0/https_/assets.mycartpanda.com/static/theme_images/10/df/5e/67038_6400096512.png" srcset="https://thumbor.cartpanda.com/kWIXb_XjpYEv7S8vDnc3MY6sMWg=/110x0/https://assets.mycartpanda.com/static/theme_images/10/df/5e/67038_6400096512.png 1x, https://thumbor.cartpanda.com/u7V3NARKGpcsV-oxG8fSDG9DwHk=/220x0/https://assets.mycartpanda.com/static/theme_images/10/df/5e/67038_6400096512.png 2x" alt="" class="tt-retina"></a>
+</div>
+<div class="tt-mobile-parent-menu-icons">
+
+<div class="tt-mobile-parent-search tt-parent-box"></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="tt-desktop-header">
+<div class="container">
+<div class="tt-header-holder">
+<div class="tt-col-obj tt-obj-logo menu-in-center " itemscope itemtype="http://schema.org/Organization"><a href="../index.html" class="tt-logo" itemprop="url"><img src="../../thumbor.cartpanda.com/TQCYCqvXRR6jev3dA4SIJm6sKV4%3d/110x0/https_/assets.mycartpanda.com/static/theme_images/10/df/5e/67038_4000265190.png" srcset="https://thumbor.cartpanda.com/TQCYCqvXRR6jev3dA4SIJm6sKV4=/110x0/https://assets.mycartpanda.com/static/theme_images/10/df/5e/67038_4000265190.png 1x, https://thumbor.cartpanda.com/F7GSUn03siF3TotL59Zz7DjCsOc=/220x0/https://assets.mycartpanda.com/static/theme_images/10/df/5e/67038_4000265190.png 2x" alt="" class="tt-retina" itemprop="logo" style="top:0px" /></a>
+</div><div class="tt-col-obj tt-obj-menu obj-aligment-center" style="padding-right: 37px;">
+
+<div class="tt-desctop-parent-menu tt-parent-box">
+<div class="tt-desctop-menu"><nav>
+<ul>
+<li class="dropdown tt-megamenu-col-01">
+<a href="../index.html"><span>HOME</span></a>
+<div class="dropdown-menu">
+<div class="row tt-col-list">
+<div class="col">
+<ul class="tt-megamenu-submenu tt-megamenu-preview"><li><a href="../index.html"><span>HOME</span></a> <ul><li>
+<a href="../index.html"><span>HOME</span></a>
+</li><li>
+<a href="biography.html"><span>BIOGRAPHY</span></a>
+</li><li>
+<a href="equipments.html"><span>EQUIPMENTS</span></a>
+</li><li>
+<a href="contact.html"><span>CONTACT</span></a>
+</li></ul></li><li><a href="biography.html"><span>BIOGRAPHY</span></a> </li><li><a href="equipments.html"><span>EQUIPMENTS</span></a> </li><li><a href="contact.html"><span>CONTACT</span></a> </li></ul>
+</div>
+</div>
+</div>
+</li> <li class="dropdown tt-megamenu-col-01">
+<a href="biography.html"><span>BIOGRAPHY</span></a> </li> <li class="dropdown tt-megamenu-col-01">
+<a href="equipments.html"><span>EQUIPMENTS</span></a> </li> <li class="dropdown tt-megamenu-col-01">
+<a href="contact.html"><span>CONTACT</span></a> </li></ul>
+</nav>
+</div>
+</div>
+</div><div class="tt-col-obj tt-obj-options obj-move-right"> 
+<div class="tt-desctop-parent-search tt-parent-box">
+<div class="tt-search tt-dropdown-obj">
+<button class="tt-dropdown-toggle" data-tooltip="Pesquisar" data-tposition="bottom">
+<i class="icon-f-85"></i>
+</button>
+<div class="tt-dropdown-menu">
+<div class="container">
+<form action="https://www.natancunha.com/search" method="get" role="search">
+<div class="tt-col">
+<input type="hidden" name="type" value="product" />
+<input class="tt-search-input" type="search" name="q" placeholder="PROCURAR PRODUTOS..." aria-label="PROCURAR PRODUTOS...">
+<button type="submit" class="tt-btn-search"></button>
+</div>
+<div class="tt-col">
+<button class="tt-btn-close icon-f-84"></button>
+</div>
+<div class="tt-info-text">O que você está procurando?</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+
+<div class="tt-stuck-nav notshowinmobile">
+<div class="container">
+<div class="tt-header-row "><div class="tt-stuck-parent-logo">
+<a href="../index.html" class="tt-logo" itemprop="url"><img src="../../thumbor.cartpanda.com/TQCYCqvXRR6jev3dA4SIJm6sKV4%3d/110x0/https_/assets.mycartpanda.com/static/theme_images/10/df/5e/67038_4000265190.png" srcset="https://thumbor.cartpanda.com/TQCYCqvXRR6jev3dA4SIJm6sKV4=/110x0/https://assets.mycartpanda.com/static/theme_images/10/df/5e/67038_4000265190.png 1x, https://thumbor.cartpanda.com/F7GSUn03siF3TotL59Zz7DjCsOc=/220x0/https://assets.mycartpanda.com/static/theme_images/10/df/5e/67038_4000265190.png 2x" alt="" class="tt-retina" itemprop="logo" /></a>
+</div><div class="tt-stuck-parent-menu"></div>
+<div class="tt-stuck-parent-search tt-parent-box"></div></div>
+</div></div>
+</header>
+</div><div class="tt-breadcrumb">
+<div class="container">
+<ul>
+<li><a href="../index.html">Home</a></li><li>CONTACT</li></ul>
+</div>
+</div>
+<div id="tt-pageContent" class="show_unavailable_variants">
+<div class="container-indent">
+<div class="container">
+<p>Business</p><p><br></p><p>E-MAIL: <a href="../cdn-cgi/l/email-protection.html#f698978297989583989e979990909f959f979ab6919b979f9ad895999b"><span class="__cf_email__" data-cfemail="fe909f8a9f909d8b90969f919898979d979f92be99939f9792d09d9193">[email&#160;protected]</span></a></p><p><br></p><p>INSTAGRAM: @natancunhaofficial</p>
+</div>
+</div>
+</div><div id='cartx-section-footer' class='cartx-section '> <footer> <div class="tt-footer-col tt-color-scheme-03">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-lg-4 col-xl-4"> <div class="tt-mobile-collapse">
+<h4 class="tt-collapse-title">RECENTS ALBUNS</h4>
+<div class="tt-collapse-content">
+''LITTLE NIGHTMARES'' 2022 | ''THE ART OF EXISTENCE'' 2021 | "SYNAPTICAL OMNIFARIOUS" 2020 | "ROLLFLY PROJECT'' 2019
+</div>
+</div></div>
+<div class="col-md-6 col-lg-4 col-xl-4"> <div class="tt-mobile-collapse">
+<h4 class="tt-collapse-title">NATAN CUNHA'S IS</h4>
+<div class="tt-collapse-content">
+OFFICIAL BRAZILIAN GUITARIST OF THE METAL, MULTI-INSTRUMENTALIST, COMPOSER AND MENTOR MUSIC, CAREER AND INNOVATION IN THE MUSIC.
+</div>
+</div></div>
+<div class="col-md-6 col-lg-4 col-xl-4"> <div class="tt-mobile-collapse">
+<h4 class="tt-collapse-title">CONTACT</h4>
+<div class="tt-collapse-content">
+<a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="0e606f7a6f606d7b60666f616868676d676f624e69636f6762206d6163">[email&#160;protected]</a> | @natancunhaofficial
+</div>
+</div></div> </div>
+</div>
+</div> <div class="tt-footer-custom tt-color-scheme-04">
+<div class="container">
+<div class="tt-row">
+<div class="tt-col-left"><div class="tt-col-item tt-logo-col">
+<a href="../index.html" class="tt-logo tt-logo-alignment"><img src="../../thumbor.cartpanda.com/kD0jxZeF-PkCb5UX7FVpCj8T4bI%3d/95x0/https_/assets.mycartpanda.com/static/theme_images/10/df/5e/67038_2561420515.png" srcset="https://thumbor.cartpanda.com/kD0jxZeF-PkCb5UX7FVpCj8T4bI=/95x0/https://assets.mycartpanda.com/static/theme_images/10/df/5e/67038_2561420515.png 1x, https://thumbor.cartpanda.com/febbDzHv21hKbqmT5F4pvcCzekI=/190x0/https://assets.mycartpanda.com/static/theme_images/10/df/5e/67038_2561420515.png 2x" alt="" class="tt-retina"></a>
+</div> <div class="tt-col-item">
+<div class="tt-box-copyright">NATAN CUNHA. ALL RIGHTS RESERVEDS ©2022</div>
+</div></div>
+</div>
+</div>
+</div>
+</footer>
+<style>
+  .pageindex footer{
+    margin-top: 0;
+  }
+
+</style>
+</div><a href="#" class="tt-back-to-top">DE VOLTA AO TOPO</a>
+
+<div class="modal fade" id="modalAddToCartError" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-sm">
+<div class="modal-content ">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="icon icon-clear"></span></button>
+</div>
+<div class="modal-body">
+<div class="modal-add-cart">
+<i class="icon-h-10"></i>
+<p class="error_message"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="modalAddToCartProduct" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content ">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="icon icon-clear"></span></button>
+</div>
+<div class="modal-body">
+<div class="tt-modal-addtocart mobile">
+<div class="tt-modal-messages">
+<i class="icon-f-68"></i> Adicionado ao carrinho com sucesso!
+</div>
+<a href="#" class="btn-link btn-close-popup">CONTINUE COMPRANDO</a>
+<a href="../cart.html" class="btn-link">Ver carrinho</a>
+<a href="../index.html" class="btn-link">FINALIZAR A COMPRA</a>
+</div>
+<div class="tt-modal-addtocart desctope">
+<div class="row">
+<div class="col-12 col-lg-6">
+<div class="tt-modal-messages">
+<i class="icon-f-68"></i> Produto adicionado com sucesso ao seu carrinho de compras
+</div>
+</div>
+<div class="col-12 col-lg-6">
+ <a href="../cart.html" class="tt-cart-total" title="Ver carrinho">
+Existem <span class="modal-total-quantity"></span> itens no seu carrinho
+<div class="tt-total">
+TOTAL: <span class="tt-price full-total-js"></span>
+</div>
+</a>
+<a href="#" class="btn btn-border btn-close-popup ttmodalbtn">CONTINUE COMPRANDO</a>
+<a href="../cart.html" class="btn btn-border ttmodalbtn ttmodalbtn">Ver carrinho</a>
+<a href="../index.html" class="btn ttmodalbtn">FINALIZAR A COMPRA</a>
+</div>
+</div>
+</div><div class="tt-modal-slider hide">
+<hr>
+<div class="tt-title">With this product also buy:</div>
+<div class="tt-modal-slider-js header-menu-product arrow-location-03 row">
+</div>
+</div></div>
+</div>
+</div>
+</div> <div id="custom-preloader">
+<div class="custom-loader" style="display: none;">
+<img width="32" height="32" alt="Page Loader" class="lazyload" data-src="../../natancunhashopbarber.mycartpanda.com/themes/void/assets/ajax-loadere0ac.gif?v=123456">
+</div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false">
+    var theme = {
+      installment_string: 'X DE R$',
+      datepicker_regional: 'pt-BR'
+    },
+    shop_url = '../index.html',
+      money_format = 'R$ {{amount}}',
+        color_with_border = 'White' || 'empty',
+        colors_value = ',coat: #ff0000,yellow: #ffff00,black: #000000,blue: #0000ff,green: #00ff00,purple: #800080,silver: #c0c0c0,white: #ffffff,brown: #7b3f00,light-brown: #feb035,dark-turquoise: #23cddc,orange: #fe9001,tan: #eacea7,violet: #ee82ee,pink: #ffc0cb,grey: #808080,red: #ff0000,light blue: #add8e6,',
+      texture_obj = function(){                                                                                                    return JSON.parse('{}');
+    }
+    texture_obj = texture_obj();
+
+    var void_app = {
+      url: '',
+      loader_text: 'Be patient',
+      main_info: {
+        customerid: '',
+        iid: '',
+        shop: 'natancunhashopbarber.mycartpanda.com',
+        domain: '',
+        lic: '',
+      }
+    };
+
+    var set_day = 'Dia',
+        set_hour = 'Hrs',
+        set_minute = 'Min',
+        set_second = 'Sec';
+
+    var addtocart_text = '<span class="icon icon-shopping_basket"></span> <span>ADICIONAR AO CARRINHO</span>',
+        unavailable_text = '<span>ESGOTADO</span>',
+        addedhtml_text = '<span class="icon icon-shopping_basket"></span> ADICIONADO',
+        errorhtml_text = '<span class="icon icon-shopping_basket"></span> LIMITE PRODUTOS',
+        preorderhtml_text = '<span class="icon icon-f-47"></span> <span>Esgotado</span>',
+        wait_text = '<span class="icon icon-shopping_basket"></span> ESPERAR',
+        b_close = 'Fechar',
+        b_back = 'Voltar',
+        seeallresults = 'See all results';
+    
+
+    var small_image = '../../natancunhashopbarber.mycartpanda.com/themes/void/assets/dummye0ac.png?v=123456';
+
+    var g_product_installments = '12';
+    var g_installments_fees = '{"1":0,"2":4.51,"3":6.04,"4":7.59,"5":9.15,"6":10.72,"7":12.31,"8":13.92,"9":15.54,"10":17.17,"11":18.82,"12":20.48}';
+
+  </script>
+<script type='text/javascript' data-cfasync="false">
+        $(window).on('load',function() {
+            if($('.btn-addtocart').length > 0) {
+                $(".btn-addtocart").prop("disabled", false);
+            }
+        });
+    </script>
+<link href='../../natancunhashopbarber.mycartpanda.com/themes/void/310879/0/67038/compiled/timer_alla2a6.css?v=1661122571' type='text/css' rel='stylesheet'>
+<link href='../../natancunhashopbarber.mycartpanda.com/themes/void/310879/0/67038/compiled/timer_new9de9.css?v=1661122572' type='text/css' rel='stylesheet'>
+<link href='../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/custom_cssdacb.css?v=1624949694' type='text/css' rel='stylesheet'>
+<script src="../../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script><script data-cfasync="false" src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/vendor.minfa71.js?v=1685596245" defer="defer"></script>
+<script src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/skrollr5c80.js?v=1615980263" defer="defer"></script>
+<div class="revolution_included"></div>
+<script src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/jquery.themepunch.revolution_full.min5c80.js?v=1615980263" defer="defer"></script>
+<div class="isotope_included"></div>
+<script src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/isotope_full.pkgd.min5c80.js?v=1615980263" defer="defer"></script>
+<script src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/jquery.magnific-popup.mind456.js?v=1615980264" defer="defer"></script> <script src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/collections-filtres4879.js?v=1685596244" defer="defer"></script><script src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/moment-momenttimezone.min5c80.js?v=1615980263" defer="defer"></script>
+<script src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/jquery.countdown.mind456.js?v=1615980264" defer="defer"></script>
+<script src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/jquery.instagramFeed.min4879.js?v=1685596244" defer="defer"></script>
+<script data-cfasync="false" src="../../natancunhashopbarber.mycartpanda.com/themes/void/310879/67038/themefa71.js?v=1685596245" defer="defer"></script>
+<script src="../../natancunhashopbarber.mycartpanda.com/js/vue.js"></script>
+<style type="text/css">
+
+
+.modal-newsletter .modal-backdrop{
+  
+  background: linear-gradient(0deg, rgba(201,40,254,0.97) 0%, rgba(43,14,128,0.97) 100%);
+}
+#Modalnewsletter .tt-background {
+  
+  background: #FFFFFF url("../placeholders/image.svg") 0 0 no-repeat;
+  
+  background-size: 50% auto;
+}
+</style>
+<div class="modal  fade" id="ModalSubsribeGood" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-xs">
+<div class="modal-content ">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="icon icon-clear"></span></button>
+</div>
+<div class="modal-body">
+<div class="tt-modal-subsribe-good">
+<i class="icon-f-68"></i> <span>You have successfully subscribed!</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function checkSubscribe(){
+    if(location.search.indexOf('customer_posted=true') == -1) return false;
+    $('.tt-modal-subsribe-good').find('span').html('You have successfully subscribed!');
+    $('#ModalSubsribeGood').modal('show');
+    setTimeout(function(){window.history.pushState("", "", location.pathname)}, 100);
+  }
+  function checkSended(){
+    if(location.search.indexOf('contact_posted=true') == -1) return false;
+    $('.tt-modal-subsribe-good').find('span').html("Thanks for contacting us. We'll get back to you as soon as possible.");
+    $('#ModalSubsribeGood').modal('show');
+    setTimeout(function(){window.history.pushState("", "", location.pathname)}, 100);
+  }  
+  window.addEventListener('DOMContentLoaded', function() {
+    checkSubscribe();
+    checkSended();
+  });
+</script>
+<div class="modal fade" id="ModalMessage" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true" data-pause=1500>
+<div class="modal-dialog">
+<div class="modal-content ">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="icon icon-clear"></span></button>
+</div>
+<div class="modal-body">
+<div class="tt-login-wishlist">
+<p>Please login and you will add product to your wishlist</p>
+<div class="row-btn">
+<a href="../account/login.html" class="btn btn-small ttmodalbtn">SIGN IN</a>
+<a href="../account/register.html" class="btn btn-border btn-small ttmodalbtn">REGISTER</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div id='cartx-section-promo-fixed' class='cartx-section '>
+<script>
+  function initPromoFixed(){
+    var $ttpromofixed = $(".tt-promo-fixed"),
+      $promofixeddata = $(".promofixeddata"),
+        $promofixedclose = $ttpromofixed.find(".tt-btn-close");
+    
+    if($('html').hasClass('touch-device') && $ttpromofixed.hasClass('hidden-mobile')) return false;
+  if($ttpromofixed.hasClass('hidden-mobile') && $(window).width < 1025) return false;
+    if($promofixeddata.length == 0) return false;
+    
+    setPromoFixedItem($ttpromofixed, $promofixeddata);
+  showPromoFixed($ttpromofixed, $ttpromofixed.data('start'));
+    
+  showPromoFixedNextMessage($ttpromofixed, $promofixeddata, $promofixedclose)
+
+    $promofixedclose.click(function(){
+      $ttpromofixed.addClass('nonevent').fadeTo(100, 0);
+    });
+  }
+  function showPromoFixedNextMessage($modal, $data, $close){
+    var nextmin = $modal.data('min'),
+        nextmax = $modal.data('max');
+  var i = getRndInteger(nextmin, nextmax);
+    setTimeout(function(){
+      $close.trigger('click');
+      setTimeout(function(){
+        setPromoFixedItem($modal, $data);
+        showPromoFixed($modal, 0);
+        showPromoFixedNextMessage($modal, $data, $close);
+      }, 100);
+    }, i);
+  }
+  function getPromoFixedCustomProductIndex($promofixeddata){
+    var min = 0,
+        max = $promofixeddata.children().length;
+    return getRndInteger(min, max);
+  }
+  function setPromoFixedItem($modal, $data){
+    var i = getPromoFixedCustomProductIndex($data)
+    var data = $data.children().eq(i);
+    $modal.find('.tt-img').find('a').attr('href', data.data('url')).find('img').attr('src', data.data('image')).attr('alt', data.data('alt'));
+    $modal.find('.pr_name').attr('href', data.data('url')).text(data.data('name'));
+    
+    var nummin = parseInt(data.data('min')),
+      nummax = parseInt(data.data('max')),
+      num = getRndInteger(nummin, nummax);
+    $modal.find('.tt-info-value').text(num);
+
+  if (typeof data.data('text') === typeof undefined) return false;
+    var str = data.data('text').split('||'),
+      i = getRndInteger(0, str.length-1);
+    $modal.find('.tt-info-text').text(str[i]);
+  }
+  function showPromoFixed($parent, delay){
+    setTimeout(function(){
+    $parent.removeClass('nonevent').fadeTo(300, 1);
+    }, delay);
+  }
+  function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) ) + min;
+  }
+  setTimeout(initPromoFixed, 300);
+</script></div>
+<script src="../../natancunhashopbarber.mycartpanda.com/js/vue.js"></script>
+<script type="text/javascript">
+      //Additional Storefront Script Starts
+      
+        var script = {"id":1177676,"shop_id":67038,"type":"storefront","head_script":"","body_script":"","meta_script":"","created_at":"2022-05-09 07:58:34","updated_at":"2022-05-09 07:58:34"};
+        if(script.head_script) {
+          $("head").append(script.head_script);
+        }
+        if (script.body_script) {
+          setTimeout(function() {
+            $("body").append(script.body_script);
+          }, 1000)
+        }
+      
+      //Additional Storefront Script Ends
+    </script>
+<script type="text/javascript">
+      $("input#pcart-term-conditions-checkbox").on('change', function() {
+        if ($('input#pcart-term-conditions-checkbox').is(':checked')) {
+          $('.tt-modal-addtocart a.ttmodalbtn').removeClass('disabled');
+        }else{
+          $('.tt-modal-addtocart a.ttmodalbtn').addClass('disabled');
+        }
+      });
+      $("#cart-term-conditions-checkbox").on('change', function() {
+        if ($('#cart-term-conditions-checkbox').is(':checked')) {
+          $('.tt-shopcart-box button').removeClass('disabled').prop('disabled', false);;
+        }else{
+          $('.tt-shopcart-box button').addClass('disabled').prop('disabled', true);;
+        }
+      });
+      function isIE() {
+        ua = navigator.userAgent;
+        /* MSIE used to detect old browsers and Trident used to newer ones*/
+        var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/index.html") > -1;
+
+        return is_ie;
+      }
+      if (isIE()){
+        $('.lazyload').each(function() {
+          var mainimage = $(this).data('mainimage');
+          $(this).attr('src', mainimage);
+        });
+      }
+    </script>
+<script type="text/javascript">
+      if (typeof fbPixelAPI === 'undefined') {
+          function fbPixelAPI(eventName, eventData, eventID, customer, pixel_id) {
+
+              fetch('https://jsonip.com/', { mode: 'cors' })
+                  .then((resp) => resp.json())
+                  .then((ip) => {
+
+                      var current_url = window.location.href;
+
+                      if (customer === undefined || customer === null || customer === '') {
+                          customer = {};
+                      }
+
+                      let fbp = document.cookie.split(';').filter(c => c.includes('_fbp=')).map(c => c.split('_fbp=')[1]);
+                      let fbc = document.cookie.split(';').filter(c => c.includes('_fbc=')).map(c => c.split('_fbc=')[1]);
+                      fbp = (fbp.length && fbp[0]) || null;
+                      fbc = (fbc.length && fbc[0]) || null;
+                      if (!fbc && window.location.search.includes('fbclid=')) {
+                          fbc = 'fb.1.' + (+new Date()) + '.' + window.location.search.split('fbclid=')[1];
+                      }
+
+                      jQuery.ajax({
+                          headers: {
+                              'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                          },
+                          type: "POST",
+                          url: '/fbpixelapi',
+                          data: {
+                              eventName: eventName,
+                              eventData: eventData,
+                              current_url: encodeURIComponent(current_url),
+                              fbp: fbp,
+                              fbc: fbc,
+                              event_id: eventID,
+                              customer: customer,
+                              pixel_id: pixel_id,
+                              ip: ip.ip
+                          },
+                          cache: false,
+                          success: function (data) {
+                          },
+                          error: function (errorThrown) {
+                              console.error(errorThrown)
+                          }
+                      });
+                  });
+          }
+      }
+  </script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'7d0506eebf802573',m:'GD3trKNZKe9.F0YBBJhMRDAoucnoAaT0jq3.drPwNL4-1685597032-0-ATHzN7mL3VSKVz/hHCXvGXbzwWhXVhNry6eEfdQntCxZ',u:'/cdn-cgi/challenge-platform/h/b'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../cdn-cgi/challenge-platform/h/b/scripts/jsd/938e2b5c/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from www.natancunha.com/pages/contact by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jun 2023 05:24:34 GMT -->
+</html>

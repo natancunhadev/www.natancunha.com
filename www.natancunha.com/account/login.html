@@ -1,0 +1,95 @@
+<style type="text/css">
+        :root {
+            --background_color: #ffffff;
+            --modal_background_color : #ffffff;
+            --modal_title_color : #323c47;
+            --button_background_color : #2688ff;
+            --button_border_color :  #2688ff ;
+            --button_text_color : #ffffff;
+
+            --email_background_color :  #eff7ff ;
+
+            --email_border_color :  #eff7ff ;
+
+            --email_text_color :  #000000 ;
+
+            --email_box_shadow_color :  #eff7ff ;
+
+            --email_sent_text_color:  #16192c ;
+        }
+
+        .login-page {
+            background: var(--background_color);
+            overflow: none;
+        }
+        .login-page .login-message{
+            color: var(--email_sent_text_color) !important;
+        }
+
+        .login-page .login-container {
+            background: var(--modal_background_color);
+        }
+
+        .login-page .login-container .title,
+        .login-page .login-container .sub-title {
+            color: var(--modal_title_color) !important;
+        }
+
+        .login-page .login-container form .submit-button{
+            background: var(--button_background_color) !important;
+            color: var(--button_text_color) !important;
+            border-color: var(--button_border_color) !important;
+        }
+        .login-page .logo img {
+            width : auto !important;
+        }
+        .login-page .login-container form input[name="email"] {
+            background: var(--email_background_color) !important;
+            border-color: var(--email_border_color) !important;
+            color: var(--email_text_color) !important;
+        }
+        .login-page .login-container form input[name="email"]:focus{
+            box-shadow: 0 0 0 .25rem  var(--email_box_shadow_color) !important;
+        }
+    </style>
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from www.natancunha.com/account/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jun 2023 05:24:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>    Login
+</title>
+<link rel="stylesheet" type="text/css" href="../../natancunhashopbarber.mycartpanda.com/css/app.css" />
+<link rel="shortcut icon" href="../../thumbor.cartpanda.com/16xuULdHLW3D9AsPXgCQ3Qtv9zk%3d/32x0/https_/assets.mycartpanda.com/static/favicons/cf/c6/88/1652093914.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="../../thumbor.cartpanda.com/16xuULdHLW3D9AsPXgCQ3Qtv9zk%3d/32x0/https_/assets.mycartpanda.com/static/favicons/cf/c6/88/1652093914.png" type="image/x-icon" />
+</head>
+<body class="login-page">
+<div class="login-container">
+<div class="logo">
+<img class="logo-image-preview" style="display:none;" src="#" alt="">
+</div>
+<div class="title" data-realtime="settings.modal_title">
+Welcome
+</div>
+<div class="sub-title" data-realtime="settings.modal_sub_title">
+Login to your account
+</div>
+<form class="mt-5" action="https://www.natancunha.com/account/login" method="POST">
+<input type="hidden" name="_token" value="BY8NtYAjqmPfpOGibUHVrFimrNlebHAbPKANDp0r"> <div class="form-group">
+<input name="email" type="text" data-realtimetype="placeholder" data-realtime="settings.modal_email_placeholder" class="form-control" placeholder="Please enter your email">
+</div>
+<div class="mt-3">
+<button type="submit" class="btn btn-primary submit-button" data-realtime="settings.button_text">
+Login Without Password
+</button>
+</div>
+</form>
+</div>
+<script>(function(){var js = "window['__CF$cv$params']={r:'7d050758dd5d1f82',m:'FwH5qZl3g3iWlSKs8QNA1EUnyc6k.uyWv05a8FZLuKw-1685597049-0-AXPOO8sawezUZ6r9mJF4GaIRAWdxGDb264ulkZSlibFI',u:'/cdn-cgi/challenge-platform/h/b'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../cdn-cgi/challenge-platform/h/b/scripts/jsd/938e2b5c/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from www.natancunha.com/account/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jun 2023 05:24:37 GMT -->
+</html>
